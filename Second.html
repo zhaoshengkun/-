@@ -11,43 +11,111 @@
 			border-radius: 10px;
 			width: 1200px;
 			height: 400px;
-			/*margin: 2% 30% 90% 21%;*/
 			margin: 0 auto;
 		    border: 1px solid #000000;
-			background-color:#666666;
+			background-color: red;
+			
 		}
-		
-		.titleLeft
+		#titleBottom
 		{
-			font-size: 18px;
-			color: #FFFFFF;
-			height: 38px;
-			margin-left: 3%;
+			background-color: white;
+			float: right;
+			border-radius:0px 0px 10px 0px ;
+			width: 900px;
+			height: 100px;
+			margin-bottom: 0%;	
 		}
 		#bigImage
 		{
 			border-radius: 0px 10px 0px 0px;
-			position: relative;
 			float: right;
 			height: 300px;
-			width: 900px;		
+			width: 900px;
+			margin-top: 0%;
+		
 		}
-		p:hover
+		#titleleft
+		{
+			border-radius:10px 0px 0px 10px ;
+			background-color: #CCCCCC;
+			height: 400px;
+			width: 300px;
+			margin-bottom: 0%;
+		}
+		.titleText
+		{
+			font-size: 18px;
+			color: #FFFFFF;
+			height: 60px;
+			line-height: 60px;
+			text-align: center;
+			width: 250px;
+			
+		}
+	
+		.titleText:hover
 		{
 			background-color: burlywood;
+			
 		}
+		.smallImage
+		{
+			float: left;
+			font-size: 15px;
+			display: inline;
+			
+			width: 180px;
+			text-align: center;
+		}
+		.smallText
+		{
+			float: left;
+			font-size: 11px;
+			display: inline;
+			width: 180px;
+			text-align: center;
+			margin-top: 0px;
+		}
+		.bottomImage
+		{
+			height: 47px;
+			width: 50px;display: block;
+			padding-left: 39%;
+			padding-top: 5%;
+		}
+
+	
+		
+	
 	</style>
 	<body>
 		<div style="height: 40px;"></div>
 		<div id="titleHead">
 			<img id="bigImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg" />
-			<p class="titleLeft">前言 / 区块链 / 人工智能   ></p>
-			<p class="titleLeft">前段 / 小程序 / 人工智能   ></p>
-			<p class="titleLeft">后端 / JAVA / Python   ></p>
-			<p class="titleLeft">移动 / Android / iOS   ></p>
-			<p class="titleLeft">云计算 / 大数据 / 容器   ></p>
-			<p class="titleLeft">运维 / 测试 / 数据库   ></p>
-			<p class="titleLeft">UI设计 / 3D动画 / 游戏   ></p>
+		
+			
+			<div id="titleBottom"> 
+				<div >
+					<div class="smallImage"><img class="bottomImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg">Web前段攻城狮<div class="smallText">从未接触编程有也可以学好</div></div>
+					<div class="smallImage"><img class="bottomImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg">Java攻城狮<div class="smallText">综合就业排名第一</div></div>
+					<div class="smallImage"><img class="bottomImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg">Python攻城狮<div class="smallText">迅速倔起的主流编程语言</div></div>
+					<div class="smallImage"><img class="bottomImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg">Android攻城狮<div class="smallText">移动设备市场份额第一</div></div>
+					<div class="smallImage"><img class="bottomImage" src="https://img.mukewang.com/5d108bc10001442009360316.jpg">PHP攻城狮<div class="smallText">最广泛的Web后端开发语言</div></div>
+										
+				</div>
+			</div>
+			<div id="titleleft"> 
+				<div style="padding-top: 7% ;padding-left: 16%;">
+				<div class="titleText"  >前言 / 区块链 / 人工智能   ></div>
+				<div class="titleText">后端 / JAVA / Python   ></div>
+				<div class="titleText">移动 / Android / iOS   ></div>
+				<div class="titleText">云计算 / 大数据 / 容器   ></div>
+				<div class="titleText">运维 / 测试 / 数据库   ></div>
+				<div class="titleText">UI设计 / 3D动画 / 游戏   ></div>
+				</div>
+			</div>
+			
+			
 		</div>
 	</body>
 </html>
